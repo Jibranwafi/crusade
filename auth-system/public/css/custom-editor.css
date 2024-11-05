@@ -1,0 +1,78 @@
+.editor-container {
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.editor-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    border-bottom: none;
+}
+
+.editor-content {
+    min-height: 300px;
+    max-height: 600px;
+    overflow-y: auto;
+    background: white;
+}
+
+.toolbar-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.toolbar-btn:hover {
+    background: #e9ecef;
+}
+
+.toolbar-btn.active {
+    background: #e9ecef;
+    border-color: #adb5bd;
+}
+
+.toolbar-separator {
+    width: 1px;
+    height: 24px;
+    background: #dee2e6;
+    margin: 0 0.5rem;
+}
+
+.editor-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.editor-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.editor-content table td {
+    border: 1px solid #dee2e6;
+    padding: 0.5rem;
+}
+
+.editor-content h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.editor-content h2 {
+    font-size: 1.5em;
+    margin: 0.75em 0;
+}
+
+.editor-content h3 {
+    font-size: 1.17em;
+    margin: 0.83em 0;
+}
